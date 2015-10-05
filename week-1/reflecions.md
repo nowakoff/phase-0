@@ -56,3 +56,25 @@ The most important is find, as it decreases the time for search. Also touch and 
 
 
 ##  Forking and Cloning 
+
+Hey want to learn something ? We will fork and clone respiratory.
+
+Forking respiratory is coping respiratory from one GitHub account to another. Cloning respiratory is coping repo form GitHub to your local server. 
+
+To fork repo just simply go to the repo on GitHub website and click on "fork".
+
+To clone to your local:
+
+a) find url on the page with a label "HTTPS clone URL"
+
+b) click on "copy to clipboard icon"
+
+c) open cmd prompt/ terminal
+
+d) use mkdir to create new directory, name it in a way that you remember what is inside, for example phase-0-challenges 
+
+e) type "git clone" and the paste your URL using mouse and then "enter". It should look like this: "git clone https://github.com/nowakoff/phase-0.git" (Łącza do strony zewnętrznej.)
+
+ 
+
+I learnt about the fork functionality, what will safe me a lot of time in the future. Before I was cloning repo and then pushing it from my local instead of forking. 
