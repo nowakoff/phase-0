@@ -1,4 +1,4 @@
-![Alt SiteMap](/week-2/imgs.SiteMap.jpg)
+![Alt SiteMap](/week-2/imgs/SiteMap.jpg)
 
 
 What are the 6 Phases of Web Design?
