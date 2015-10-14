@@ -1,12 +1,12 @@
-![Alt text](/3.4 Pair DevTools/imgs/1.png )
-![Alt text](/3.4 Pair DevTools/imgs/2.png )
-![Alt text](/3.4 Pair DevTools/imgs/3.png )
-![Alt text](/3.4 Pair DevTools/imgs/4.png )
-![Alt text](/3.4 Pair DevTools/imgs/5.png )
-![Alt text](/3.4 Pair DevTools/imgs/6.png )
-![Alt text](/3.4 Pair DevTools/imgs/7.png )
-![Alt text](/3.4 Pair DevTools/imgs/8.png )
-![Alt text](/3.4 Pair DevTools/imgs/9.png )
+![Alt text](/Devtools/imgs/1.png)
+![Alt text](/Devtools/imgs/2.png)
+![Alt text](/Devtools/imgs/3.png)
+![Alt text](/Devtools/imgs/4.png)
+![Alt text](/Devtools/imgs/5.png)
+![Alt text](/Devtools/imgs/6.png)
+![Alt text](/Devtools/imgs/7.png)
+![Alt text](/Devtools/imgs/8.png)
+![Alt text](/Devtools/imgs/9.png)
 
 **How can you use Chrome's DevTools inspector to help you format or position elements?**
 1) I can change the size of my text
