@@ -1,0 +1,98 @@
+* { /*set document margins */
+  margin: 0 auto;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+/*.debug {
+  border: 1px solid red;
+}*/
+
+body {
+  background-color: #ffffff;
+}
+
+h3,h4,h5 {
+color: #000080;
+}
+
+.wb-pic {
+  display: inline;
+}
+
+.company-title {
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+}
+
+.title-inc {
+    font-size: .5em;
+    display: inline;
+}
+
+.title-letters {
+    font-size: 2em;
+    display:inline;
+}
+
+.city {
+    display: block;
+}
+
+.container {
+    width: 80%;
+    height: 450px;
+}
+
+article {
+  display: inline-block;
+}
+
+a:link {
+color: #800080;
+}
+
+a:visited {
+color: #ff0000;
+}
+
+li > a {
+    line-height: 3em;
+}
+
+.descriptions {
+    display: block;
+    font-size: .7em;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+}
+
+.geico-info {
+  text-align: center;
+}
+
+.geico-descrip {
+  display: block;
+}
+
+.fl-l {float: left;}
+.fl-r {float: right;}
+
+.m-t-xs {margin-top: .7em;}
+.m-l-xs {margin-left: .7em;}
+.m-l-sm {margin-left: 5em;}
+.m-b-xs {margin-bottom: .7em;}
+
+.pad-xs {padding: .7em;}
+.pad-l-xs {padding: .7em;}
+.pad-t-xs {padding-top: .7em;}
+.pad-b-xs {padding-bottom: .7em}
+
+/*To replace hr tags*/
+.bord-t {border-top: 1px solid;}
+.bord-b {border-bottom: 1px solid;}
+
+.descrip-size-sm {font-size: .8em;}
