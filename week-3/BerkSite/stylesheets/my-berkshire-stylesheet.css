@@ -96,3 +96,27 @@ section {
 .bord-b {border-bottom: 1px solid;}
 
 .descrip-size-sm {font-size: .8em;}
+
+/*What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+a) name of file
+b) location ( relative path)
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+Extremly hard. We used float, container with set values of pixels. We also used a lot of sections and articles. We aligned text to the center.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+
+To modify color we used "color", "backgraound-color", size: width, height, and also % and em. 
+
+Did you modify the HTML to include classes or ids? If so, which did you chose and why? If you didn't, how would you know which one to add to your HTML?
+
+Yes, we did. We used classes becouse we don't want to close our options to use style only once. 
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+I am sure we had cleaner code becouse we used a lot of descriptive html5 tags. Also Berk site does not have any css, the styles are hard-coded, so it is very time-consuming to implement changes.*/
+
+
+
