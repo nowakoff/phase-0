@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+  <main>
+  <section class="container mt-l">
+ <article> <h1 class="ff-v fs-ml heaven">Margins, borders and paddings… how to understand when we can’t see them. </h1></article>
+ 
+
+  
+    <p class="c-sewage ff-ver bsi-01 solid b-radious p-s">
+
+     
+<span class="s-m di-b c-mickey m-1em fs-ms fw-b">What is the difference between Margin, Border, and Padding?</span>
+
+Hello friends ! <br>
+Is autumn in Poland and I think it&rsquo;s a good time to focus on sharpen our CSS skills, since we will spend most of our time at home. Let&rsquo;s stop wasting time on NETFLIX ! 
+First concepts I would like to touch is PADDING, MARGIN and BORDER. We use those properties when we want to style html tags, like &lt;h1&gt;, &lt;p&gt;, &lt;footer&gt;, &lt;div&gt; or even &lt;body&gt;. For this tutorial let&rsquo;s assume we want to style &lt;p&gt; tag with a content, for example &lt;p&gt;So awesome !&lt;/p&gt;. Keep in mind that for below example I can use any other html tag. <br><br>
+
+PADDING - is usually not visible space between &lt;p&gt; and border. <br>
+BORDER - is usually visible line around our &lt;p&gt; tag content. <br>
+MARGIN - is usually not visible space between border and elements next to &lt;p&gt; <br><br>
+
+
+Next thing is that you can set BORDER and PADDING in different ways. They both have 4 sites, bottom, top, left and right, for example PADDING-LEFT, MARGIN-BOTTOM etc. You can also set MARGIN to 10px and it will automatically set the margin on every side to 10 px. <br>
+
+You can also set different styling properties to border. You can set it size, style and color in one line worth of style. 
+
+
+<img src="../imgs/content.png">
+
+
+<span class="s-m di-b c-mickey m-1em fs-ms fw-b">What are the best practices associated with using classes vs. ids?</span>
+
+Right now we will talk about CLASSES and why IDS sucks. We use CLASS and ID to set properties in our html tags. Properties like color, margin, text-shadow and 1000 multiply π more. The difference is that you can use ID property with one tag when you can use CLASS with multiple tags. So I personally never use ID because I don't like limiting myself. You will find some situations though when you want to use ID. For example if you work with JavaScript you may use ID for this purpose. Then whenever you see ID in your html element, you know it uses JS. 
+
+
+<span class="s-m di-b c-mickey m-1em fs-ms fw-b">What are the differences between relative, absolute, fixed, and static positioning?</span>
+
+Damn, that’s the hard one . I will try to make it simple.<br><br>
+ABSOLUTE - absolute is the trickiest position value. absolute behaves like fixed except relative to the nearest positioned ancestor instead of relative to the viewport. If an absolutely-positioned element has no positioned ancestors, it uses the document body, and still moves along with page scrolling. Remember, a "positioned" element is one whose position is anything except static.<br>
+RELATIVE - display element as it would be naturally displayed, and if you add any margins, it moves your element with regard to  initial displayment. Act the same as static unless you add some properties . Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element. <br>
+FIXED - a fixed element is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. As with relative, the top, right, bottom, and left properties are used.  <br>
+STATIC - is a default value, and it means that element has no position, so the element will responsive to position of other elements. 
+
+
+
+
+<span class="s-m di-b c-mickey m-1em fs-ms fw-b">What does it mean to display inline vs using inline block?</span>
+
+I understand inline as a first dimension and inline-block as 2D. Since you cannot have 2D elements in first dimension, inline property does not work good with block element as &lt;div&gt;. The height and width of the div will be ignored while using display:inline with div.  Inline is designed for defoult inline elements as &lt;span&gt;,&lt;em&gt; which mainly exist to style html elements. 
+Main thing with inline is that it as slows you to display elements next to each other INLINE. Inline block display elements next to each other but they can set width and height of elements. 
+
+
+
+
+
+
+
+
+     <span class="m-1em di-b"></span>
+    
+      
+      <span class="m-1em di-b"></span>
+      
+       </p>
+
+     
+  </section>
+</main>
+
+<!-- What HTML5 tags have you used in this challenge and continue to return to often? Why?
+Section, article, aside. Becouse they give an order to my working. 
+
+How do elements get laid out on a page? What is the order the browser uses to display elements?
+The broser first displays header, nav, then section then footer. 
+
+What did you learn about Sublime in this challenge? Do you think you'll create more handy snippets at a later date? What about research some shortcuts that already exist?
+I think is a great to create snippets and save my time. I arleady research about some shortcuts. 
+
+ -->
+
+
+
+
+</body>
+</html>
