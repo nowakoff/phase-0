@@ -1,0 +1,21 @@
+header {background-color: red}
+
+.column-1 {
+    background-color: blue;
+    width:45%;
+    float:left
+
+}
+.column-2 {
+    background-color: grey;
+    width:45%;
+    float:right;
+
+}
+
+article {background-color: green}
+
+.di-ib {display: inline-block}
+
+footer {clear:both;}
+
