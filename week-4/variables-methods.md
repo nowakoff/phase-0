@@ -38,3 +38,8 @@ rspec name.rb
 What was confusing about this material? What made sense?
 Is not confusing at this point. 
 
+
+[Math](https://github.com/nowakoff/phase-0/tree/master/week-4/math)
+[Address](https://github.com/nowakoff/phase-0/tree/master/week-4/address)
+[Define-method](https://github.com/nowakoff/phase-0/tree/master/week-4/define-method)
+
