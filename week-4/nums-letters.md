@@ -1,0 +1,44 @@
+What does puts do?
+
+Returns nil, prints stuff in a new line
+What is an integer? What is a float?
+
+Integer is a digit without dot, float is decimal ( even 5.0 becouse it has the dot)
+What is the difference between float and integer division? How would you explain the difference to someone who doesn't know anything about programming?
+
+Sooo... 5/3 = 1 (integer divided by integer = integer)
+
+But... 6.0/12 = 0.5 (float divided by integer = float)
+
+And... 1.2/0.2 = 0.6 (float divided by float = float)
+
+Also... 6/6.0 = 1.0 (integer divided by float = float)
+
+So to sum up, float is not pure decimal, becouse 6.0 in the mathematic world would be an integer. But Ruby consider it as a float. 
+
+:) :0 :() -,-
+
+Hours in a year
+Minutes in a decade
+
+```ruby
+def count_hours_in_a_year
+
+hours = 365 * 24
+puts hours
+
+end
+
+count_hours_in_a_year
+
+
+
+def count_minutes_in_a_decade(minutes)
+
+minutes = 365 * 24 * 60 * 10
+puts minutes
+
+end
+
+count_minutes_in_a_decade()
+```
