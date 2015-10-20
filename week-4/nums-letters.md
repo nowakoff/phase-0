@@ -42,3 +42,7 @@ end
 
 count_minutes_in_a_decade()
 ```
+
+[Def Var](https://github.com/nowakoff/phase-0/blob/master/week-4/defining-variables.rb)
+[Basic Math](https://github.com/nowakoff/phase-0/blob/master/week-4/basic-math.rb)
+[Simple string](https://github.com/nowakoff/phase-0/blob/master/week-4/simple-string.rb)
