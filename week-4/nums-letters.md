@@ -44,5 +44,29 @@ count_minutes_in_a_decade()
 ```
 
 [Def Var](https://github.com/nowakoff/phase-0/blob/master/week-4/defining-variables.rb)
+
+
 [Basic Math](https://github.com/nowakoff/phase-0/blob/master/week-4/basic-math.rb)
+
+
 [Simple string](https://github.com/nowakoff/phase-0/blob/master/week-4/simple-string.rb)
+
+How does Ruby handle addition, subtraction, multiplication, and division of numbers?
+
+Usually in one line using obvous mathematical signs like * / - +
+What is the difference between integers and floats?
+
+Integers don't have dot. 3,4 5,6 Floats have dot 5.0,2.3
+What is the difference between integer and float division?
+
+Integer division return ingeger, float return float
+What are strings? Why and when would you use them?
+
+Is a text. To print text
+What are local variables? Why and when would you use them?
+
+To store info about string, integer, float, other var  ect. 
+How was this challenge? Did you get a good review of some of the basics?
+
+It was preatty easy. I learn basic about methods like reverse and upcase. 
+
