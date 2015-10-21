@@ -13,7 +13,7 @@ def get_grade(average)
 		p "B"
 	elsif 70 <= average && average<= 80
 		p "C"
-	elsif 60 <= aaverage && average<= 70
+	elsif 60 <= average && average<= 70
 		p "D"
 	else average < 60
 		p "F"
