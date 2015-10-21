@@ -152,7 +152,7 @@
 
 # --- error -------------------------------------------------------
 
-require_relative "cartmans_essay.md"
+# require_relative "cartmans_essay.md"
 
 # 1. What is the line number where the error occurs? 155
 #
@@ -168,3 +168,15 @@ require_relative "cartmans_essay.md"
 
 # --- REFLECTION -------------------------------------------------------
 # Write your reflection below as a comment.
+
+# Which error was the most difficult to read?
+# LoadError
+# How did you figure out what the issue with the error was?
+# I never created cartmans_essay.md file
+# Were you able to determine why each error message happened based on the code? 
+# Yes, the error message were preety descriptive, like loed error or syntax error.
+# When you encounter errors in your future code, what process will you follow to help you debug?
+# Finidnig the line, file then the error type then shouls be easy to indentify the place of error.
+
+
+
