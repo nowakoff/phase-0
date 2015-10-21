@@ -40,3 +40,5 @@ describe 'sentence_maker' do
   it "returns the grammatically correct sentence of the second sentence" do
     expect(sentence_maker(second_sentence)).to eq "Alaska has over 586 thousand miles."
   end
+
+end
