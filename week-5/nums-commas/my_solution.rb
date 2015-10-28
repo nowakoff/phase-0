@@ -49,20 +49,20 @@ end
 
 
 # 3. Reflection
-What was your process for breaking the problem down? What different approaches did you consider?
-I did sudo code, It made sens on the beginning. Unfortunatelly I got lost in looping and indexes, and I recieved comma on every 3 first integers, not on every 3 last. 
+# What was your process for breaking the problem down? What different approaches did you consider?
+# I did sudo code, It made sens on the beginning. Unfortunatelly I got lost in looping and indexes, and I recieved comma on every 3 first integers, not on every 3 last. 
 
-Was your pseudocode effective in helping you build a successful initial solution?
-On the begining yes. It gave me flow and idea. Unfortunatelly I got lost in mathematics and looping.  
+# Was your pseudocode effective in helping you build a successful initial solution?
+# On the begining yes. It gave me flow and idea. Unfortunatelly I got lost in mathematics and looping.  
 
-What Ruby method(s) did you use when refactoring your solution? What difficulties did you have implementing it/them? Did it/they significantly change the way your code works? If so, how?
-While refactoring i tried to make code smaller. I like to use IRB to see if the function is working. It saves time and teaches me about Ruby.
+# What Ruby method(s) did you use when refactoring your solution? What difficulties did you have implementing it/them? Did it/they significantly change the way your code works? If so, how?
+# While refactoring i tried to make code smaller. I like to use IRB to see if the function is working. It saves time and teaches me about Ruby.
 
-How did you initially iterate through the data structure?
-First I used each, but the I wanted to use indexes so I used for in.
+# How did you initially iterate through the data structure?
+# First I used each, but the I wanted to use indexes so I used for in.
 
-Do you feel your refactored solution is more readable than your initial solution? Why?
-Yes, but I did not place the inital solutin becouse it was changed million times troughout the proccess and I kind of lost it. 
+# Do you feel your refactored solution is more readable than your initial solution? Why?
+# Yes, but I did not place the inital solutin becouse it was changed million times troughout the proccess and I kind of lost it. 
 
 
 
