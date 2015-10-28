@@ -14,21 +14,30 @@
 
 
 # 1. Initial Solution
-def separate_comma(num)
-num = num.to_s
-nums = num.split("").reverse
 
-dot_nums = []
-	for i in 0 ... nums.size 
-		if (i != nums.size-1) && (i-(2*i+1))%3==0 && nums.size  >= 4
-			dot_nums <<  nums[i] + ","
-		else
-			dot_nums << nums[i]
-		end
-	end
-	dot_nums = dot_nums.join.reverse
-	p dot_nums
-end
+
+# array = ["1","0","0","0","0","0","5"]
+# p array[-1]
+
+
+# array.each do |x,y|
+# 	puts x
+# 	puts "#{y}"
+# end
+
+# array.each {|x,y| puts "#{x} #{y}"}
+# kot = []
+
+# for i in 0 ... array.size 
+# 	if (i != array.size-1) && i%3==0 
+# 	kot << array[i] + "."
+	
+# else
+# 	kot << array[i] 
+# end
+
+# end
+# p kot
 
 
 # 2. Refactored Solution
@@ -62,33 +71,11 @@ end
 # First I used each, but the I wanted to use indexes so I used for in.
 
 # Do you feel your refactored solution is more readable than your initial solution? Why?
-# Yes, but I did not place the inital solutin becouse it was changed million times troughout the proccess and I kind of lost it. 
+# Yes, becouse it was changed million times troughout the proccess and I kind of lost it. 
 
 
 
 
-# array = ["1","0","0","0","0","0","5"]
-# p array[-1]
-
-
-# array.each do |x,y|
-# 	puts x
-# 	puts "#{y}"
-# end
-
-# array.each {|x,y| puts "#{x} #{y}"}
-# kot = []
-
-# for i in 0 ... array.size 
-# 	if (i != array.size-1) && i%3==0 
-# 	kot << array[i] + "."
-	
-# else
-# 	kot << array[i] 
-# end
-
-# end
-# p kot
 
 
 
