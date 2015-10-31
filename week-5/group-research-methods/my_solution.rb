@@ -51,18 +51,31 @@ end
 
 # Person 4
 def my_array_deletion_method!(source, thing_to_delete)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  for x in 0...source.size
+    if source[x].is_a? String and source[x].include?(thing_to_delete)
+        source.delete(source[x])
+    end
+  end
+  source
 end
 
+
+
+
 def my_hash_deletion_method!(source, thing_to_delete)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.each { |x,y| x.include?(thing_to_delete)? source.delete(x) : source }
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
-#
-#
-
+#### my_array_deletion_method
+# Iterate trough Indexes in source
+# If element is String and element contains thing_to_delete
+# Delete this element
+# return source
+#### my_hash_deletion_method
+# if key include thing_to_delete
+# delete this key from source 
+# else return source 
 
 # Person 5
 def my_array_splitting_method(source)
