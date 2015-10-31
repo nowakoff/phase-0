@@ -16,6 +16,48 @@
 # 1. Initial Solution
 
 
+def separate_comma(num)
+num = num.to_s
+nums = num.split("")
+dot_nums = []
+
+
+	for i in 0 ... nums.size 
+		if (i != nums.size-1) && (i-(2*i+1))%3==0 && nums.size  >= 4 
+			dot_nums <<  "," + nums[i] 
+		else
+			dot_nums << nums[i]
+		end
+	end
+p dot_nums.join
+
+end
+
+
+def random_num(min, max)
+   rand(max - min + 1) + min
+end
+ 
+
+ separate_comma("0")
+  separate_comma("10")
+   separate_comma("100")
+    separate_comma("1000")
+     separate_comma("10000")
+      separate_comma("100000000")
+#separate_comma(random_num(0, 999))
+
+# 2. Refactored Solution
+
+
+
+
+# 3. Reflection
+
+
+
+
+
 # array = ["1","0","0","0","0","0","5"]
 # p array[-1]
 
@@ -38,44 +80,6 @@
 
 # end
 # p kot
-
-
-# 2. Refactored Solution
-def separate_comma(num)
-num = num.to_s
-nums = num.split("").reverse
-dot_nums = []
-	for i in 0 ... nums.size 
-		if (i != nums.size-1) && (i-(2*i+1))%3==0 && nums.size  >= 4
-			dot_nums <<  nums[i] + ","
-		else
-			dot_nums << nums[i]
-		end
-	end
-	dot_nums = dot_nums.join.reverse
-	p dot_nums
-end
-
-
-# 3. Reflection
-# What was your process for breaking the problem down? What different approaches did you consider?
-# I did sudo code, It made sens on the beginning. Unfortunatelly I got lost in looping and indexes, and I recieved comma on every 3 first integers, not on every 3 last. 
-
-# Was your pseudocode effective in helping you build a successful initial solution?
-# On the begining yes. It gave me flow and idea. Unfortunatelly I got lost in mathematics and looping.  
-
-# What Ruby method(s) did you use when refactoring your solution? What difficulties did you have implementing it/them? Did it/they significantly change the way your code works? If so, how?
-# While refactoring i tried to make code smaller. I like to use IRB to see if the function is working. It saves time and teaches me about Ruby.
-
-# How did you initially iterate through the data structure?
-# First I used each, but the I wanted to use indexes so I used for in.
-
-# Do you feel your refactored solution is more readable than your initial solution? Why?
-# Yes, becouse it was changed million times troughout the proccess and I kind of lost it. 
-
-
-
-
 
 
 
