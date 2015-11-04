@@ -48,7 +48,13 @@ end
 #separate_comma(random_num(0, 999))
 
 # 2. Refactored Solution
+def separate_comma(num)
+  num.to_s.reverse.chars.each_slice(3).to_a.map{|sub_array| sub_array.join }.join(",").reverse 
+end
 
+
+
+p separate_comma(123456789)
 
 
 

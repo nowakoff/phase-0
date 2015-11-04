@@ -14,16 +14,12 @@
 # Initial Solution
 
 class GuessingGame
+  
   def initialize(answer)
-    # Your initialization code goes here
-    # answer = rand(1..100)
-    @answer = answer
-    p @answer
+   @answer = answer
   end
 
-  
-
-  def guess(guess) 
+def guess(guess) 
   	last_guess = nil
   	@guess = guess
   	@last_result = if  @answer == @guess
@@ -33,25 +29,12 @@ class GuessingGame
 	  	elsif @answer < @guess
 	  		p :high
 	  	end
-	  	last_guess = @guess 
-	  	until @last_result != nil
-	  		guess = gets.chomp.to_i
-	  		@guess = guess
-	  	end
-	  	p last_guess
-	  	p @last_result 
+		p @last_result 
   end
 
   def solved?
-	  	if @answer == @guess
-	  		p true
-	  		exit 
-	  	else
-	  		p false
-	  	
-	  	end
+	 @answer == @guess
   end
-
 end
 
   	# if @guess == @answer
