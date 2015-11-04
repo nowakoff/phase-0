@@ -7,7 +7,7 @@
 class Profile
 # first let's finish refactoring this code
 # note that there is a way to add all of the variables like :age on one line, how would we do that?
-  attr_accessor :age
+  attr_accessor :age, :name, :occupation
 
   def initialize
     @age = 27
@@ -24,22 +24,14 @@ class Profile
     puts "occupation: #{@occupation}"
     puts
   end
-
-  def what_is_name
-    @name
-  end
-
-  def change_my_name=(new_name)
-    @name = new_name
-  end
-
-  def what_is_occupation
-    @occupation
-  end
-
-  def change_my_occupation=(new_occupation)
-    @occupation = new_occupation
-  end
-
-
 end
+
+
+instance_of_profile = Profile.new
+
+# I have to use p here because what_is_age only returns the value of @number, it does not print anything to the console. The p modifier prints to the console whatever value is returned. Nifty!
+puts "--- printing age -----"
+sleep 0.8 # sleep so the program takes a pause instead of just running through
+p instance_of_profile.age
+
+p instance_of_profile.age = 12

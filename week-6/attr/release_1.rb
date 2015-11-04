@@ -63,7 +63,7 @@ sleep 0.8
 p instance_of_profile.what_is_occupation
 
 puts "--- changing profile information ----"
-10.times do # because we fancy
+30.times do # because we fancy
   print "."
   sleep 0.1
 end
