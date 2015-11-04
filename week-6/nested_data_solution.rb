@@ -72,3 +72,16 @@ startup_names.each do |x|
 end
 
 
+
+reflection 
+
+
+
+What are some general rules you can apply to nested arrays?
+That first I need to go inside first array and next inside array of this first one.
+
+What are some ways you can iterate over nested arrays?
+Using loop inside the loop.
+
+Did you find any good new methods to implement or did you re-use one you were already familiar with? What was it and why did you decide that was a good option?
+I used loops indite the loops and kind_of?(Array). I was arledy familair with them. 
