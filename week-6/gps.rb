@@ -60,3 +60,20 @@ p serving_size_calc("cookie", 10)
 p serving_size_calc("THIS IS AN ERROR", 5)
 
 #  Reflection
+
+What did you learn about making code readable by working on this challenge?
+1)adding explicit ver Names
+2) design simple and readable code
+
+Did you learn any new methods? What did you learn about them?
+1) Yes, I learnt that if I do return and then unless it works like if/else and is more readable
+
+What did you learn about accessing data in hashes? 
+1) That I can access values as I access data in an array
+
+What concepts were solidified when working through this challenge?
+1) That the foremost important is understanidng the challenge
+
+
+
+
