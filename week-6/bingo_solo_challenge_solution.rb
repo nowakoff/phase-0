@@ -29,6 +29,39 @@ class BingoBoard
     @bingo_board = board
   end
 
+  def turn
+    @bingo = ["b", "i", "g", "o"]
+    letter = @bingo.sample
+    p @bingo.sample
+    @number = rand(1..100)
+    p @number
+  end
+
+def check
+  match = @bingo_board.map { |array|  
+    array.map {|number| p number == @number}
+  }
+  p match
+  for x in 0..4
+    kot = match[x].index(true)
+     p kot 
+    if kot != nil
+      @bingo_board[x][kot] = "x"
+      end  
+    end
+    p @bingo_board
+
+
+
+
+
+  # if @bingo_board[x] == @bingo.index[letter] && bingo_board[x][y] == @number
+  #   @bingo_board[x] = "X"
+  #   p @bingo_board
+  end
+
+
+
 
 end
 
@@ -43,7 +76,18 @@ board = [[47, 44, 71, 8, 88],
         [25, 31, 96, 68, 51],
         [75, 70, 54, 80, 83]]
 
+def print_board(board)
+  for x in 0...board.size
+    puts "#{board[x]}"
+  end
+end
+
+print_board(board)
+
 new_game = BingoBoard.new(board)
+
+new_game.turn
+new_game.check
 
 
 #Reflection
