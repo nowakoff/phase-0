@@ -64,3 +64,18 @@ console.log(slicer(1435))
 console.log(slicer(1))
 console.log(slicer(112))
 // Reflection
+
+// What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
+// I approached it the same. It was nice becouse I should forgot about ruby syntax. In the same time it was much faster than Ruby for the first time.
+
+
+// What did you learn about iterating over arrays in JavaScript?
+// That indexing is extremly important and if we delete item 
+// from an array indexing have little sense if we set the length
+//  of an array as an part of the condition.
+
+// What was different about solving this problem in JavaScript?
+// Looping is much les flexible and code takes much more space but is more explicit and detail orianted.
+
+// What built-in methods did you find to incorporate in your refactored solution?
+// I used reverse and toString. Also I got rid of else statement. 
