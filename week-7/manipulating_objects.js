@@ -11,27 +11,44 @@ var terah = {
   height: 66,
   weight: 130,
   hairColor: "brown",
-  eyeColor: "brown"
+  eyeColor: "brown",
+  spouse: null,
 }
 // __________________________________________
 // Write your code below.
 
+var adam = { 
+  name: "Adam",
+};
 
 
-
-
-
-
-
-
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;  
+terah.eyeColor;
+adam.spouse = terah;
+terah.children = {name: ""};
+terah.children.carson = {name: "Carson"};
+terah.children.carter = {name: "Carter"};
+terah.children.colton = {name: "Colton"};
+adam.children = terah.children
 
 
 // __________________________________________
-// Reflection: Use the reflection guidelines
-//
-//
-//
-//
+// // Reflection: Use the reflection guidelines
+
+// //What tests did you have trouble passing? What did you do to make it pass? Why did that work?
+// I had trouble to pass the assigment an object to terah. 
+// I tired to include it in the children object. 
+// Finally I just assign everythin in one line to terah.
+
+// //How difficult was it to add and delete properties outside of the object itself?
+// Easy, you just write delete beforeporperty.
+
+// //What did you learn about manipulating objects in this challenge?
+// //Thar i can create new properties and change old ones. 
+// //
+// //
 //
 //
 
