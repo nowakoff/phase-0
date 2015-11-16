@@ -131,12 +131,14 @@ else {
 
 
 // Reflection
-// //What are the biggest similarities and differences between JavaScript and Ruby?
-// Syntax is more explicit in JS and you have to use much more code to execute some functionalities.
-// //Was some of your Ruby knowledge solidified by learning another language? If so, which concepts?
-// The concept of break and gets.chomp.
-// //How do you feel about diving into JavaScript after reading these chapters?
-// //I feel still a bit unsure of my knowledge.
+// What was the most difficult part of this challenge?
+// Thinking of a game.
+// What did you learn about creating objects and functions that interact with one another?
+// I learnt that we have to be very explicit about the roots of functios and objects.
+// Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
+// Yes, I learnt about concat which conects to stings. Also about random num.
+// How can you access and manipulate properties of objects?
+// By referencing those properties to every object created before.
 //
 //
 //
