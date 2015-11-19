@@ -1,6 +1,6 @@
 ![alt text](./imgs/one-to-one.png)
 
-![alt text](./imgs.many-to-many.png)
+![alt text](./imgs/many-to-many.png)
 
 
 
