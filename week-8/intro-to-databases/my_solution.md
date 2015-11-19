@@ -75,12 +75,26 @@ ORDER BY region_id asc;
 
 ## `persons` and `outfits` Schema
 <!-- Include a link to your schema design here -->
-[I'm an inline-style link](https://www.google.com)
+[Schema Design in XML](https://github.com/nowakoff/phase-0/blob/master/week-8/intro-to-databases/schema.xml)
+
+
+![alt text](./costum.png)
 
 
 
 ## Reflection
 What are databases for?
+
+To store info in organized way.
+
 What is a one-to-many relationship?
+
+It means that for example one hand can have many fingers, but those fingers cannot have many hands. The same in DBs.
+
 What is a primary key? What is a foreign key? How can you determine which is which?
+
+Primary key is the main key in the table. Foreign key is the key that conect forign table with the main table.
+
 How can you select information out of a SQL database? What are some general guidelines for that?
+
+You use sql queries like SELECT * FROM table_name
