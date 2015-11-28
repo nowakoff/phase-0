@@ -2,17 +2,30 @@
 <html>
 <head>
   <title>DOM manipulation with jQuery</title>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <!-- Add a link to jQuery CDN here script here -->
 
   <script type="text/javascript" src="jquery_example.js"></script>
+  <style>
+.block {   
+	 position: absolute;
+    background-color: #abc;
+    left: 50px;
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+}
+
+</style>
 </head>
 <body>
   <h1> Hello. Welcome to the jQuery DOM Manipulation Challenge! </h1>
   <div class="mascot">
     <h1> My DBC Mascot </h1>
-    <img src="imgs/dbc_logo.png">
+    <img src="dbc_logo.png">
   </div>
+  <button id="right">&raquo;</button>
+  <div class="block" ></div>
 
 </body>
 </html>
